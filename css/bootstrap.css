@@ -3061,25 +3061,25 @@ fieldset[disabled] a.btn {
 .btn-default {
   color: #333;
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #57b0ff;
 }
 .btn-default:focus,
 .btn-default.focus {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  border-color: #57b0ff;
 }
 .btn-default:hover {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #57b0ff;
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   color: #333;
   background-color: #e6e6e6;
-  border-color: #adadad;
+  border-color: #57b0ff;
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -3092,7 +3092,7 @@ fieldset[disabled] a.btn {
 .open > .dropdown-toggle.btn-default.focus {
   color: #333;
   background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  border-color: #57b0ff;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3109,7 +3109,7 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
   background-color: #fff;
-  border-color: #ccc;
+  border-color: #57b0ff;
 }
 .btn-default .badge {
   color: #fff;
@@ -6756,5 +6756,7 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
 
 

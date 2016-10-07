@@ -4,6 +4,6 @@
 
 return array(
     'review/([0-9]+)' => 'review/view/$1',
-    '([0-9]+)' => 'film/range/$1',
+    '([0-8])' => 'film/range/$1',
     '' => 'film/index',      // actionIndex в SiteController
 );

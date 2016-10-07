@@ -152,8 +152,12 @@
         </div>
         <!-- <video src="video.ogv" controls></video> -->
         <!--Постраничная навигация------------------------------------------------------------------------------------------------------------------------------------>
+        
+           <!--Принцип работы: Преход на предыдущую страницу фильмов при условии, что верхняя часть url не равна 1, переход
+                на следующую страницу при условии, что верхняя часть url не равна 8 -->
+        
         <div class="container text-center-nav">
-            <a class="footer_word" href="#"><button class="btn btn-default btn_nav"><i class="fa fa-caret-left" aria-hidden="true"></i></button></a>
+            <a class="footer_word" href="<? if(trim($_SERVER['REQUEST_URI'], '/')-1){echo (int)(trim($_SERVER['REQUEST_URI'], '/')-1);} ?>"><button class="btn btn-default btn_nav"><i class="fa fa-caret-left" aria-hidden="true"></i></button></a>
             <a class="footer_word" href="1"><button class="btn btn-default btn_nav">1</button></a>
             <a class="footer_word" href="2"><button class="btn btn-default btn_nav">2</button></a>
             <a class="footer_word" href="3"><button class="btn btn-default btn_nav">3</button></a>
@@ -162,7 +166,7 @@
             <a class="footer_word" href="6"><button class="btn btn-default btn_nav">6</button></a>
             <a class="footer_word" href="7"><button class="btn btn-default btn_nav">7</button></a>
             <a class="footer_word" href="8"><button class="btn btn-default btn_nav">8</button></a>
-            <a class="footer_word" href="#"><button class="btn btn-default btn_nav"><i class="fa fa-caret-right" aria-hidden="true"></i></button></a>
+            <a class="footer_word" href="<? if(trim($_SERVER['REQUEST_URI'], '/')!=8){echo (int)(trim($_SERVER['REQUEST_URI'], '/')+1);} ?>"><button class="btn btn-default btn_nav"><i class="fa fa-caret-right" aria-hidden="true"></i></button></a>
         </div>
     </div>
     <!--Постраничная навигация------------------------------------------------------------------------------------------------------------------------------------>

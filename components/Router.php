@@ -26,7 +26,7 @@ class Router
 
        // Получить строку запроса
        $uri = $this->getURI();
-        
+ 
         // Проверить наличие такого запроса в routes.php
         foreach ($this->routes as $uriPattern => $path) {
 
@@ -58,7 +58,7 @@ class Router
                 // Создать объект, вызвать метод (т.е. action)
                 $controllerObject = new $controllerName;
                 $result = call_user_func_array(array($controllerObject, $actionName), $parameters);
-                //var_dump($parameters);
+                //var_dump();
                 
                 if ($result != null) {
                     break;
