@@ -1,0 +1,17 @@
+git init                            			 	 //Создание репозитория
+
+git status                          			 	 //Проверить текущее состояние репозитория
+
+git add .                             				 //Индексация изменений файлов
+
+git reset							 //Снять индексацию
+						
+git commit -m "First Commit"          				 //Сделать коммит с названием First Commit
+
+git remote                                                       //Имена удаленных репозиториев
+
+git branch -a							 //Получить список веток
+
+git remote add origin https://github.com/Vaper-/ONE              //Подключение к удаленному репозиторию
+
+git push -u origin master                                        //Отправка изменений                           
