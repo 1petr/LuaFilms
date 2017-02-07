@@ -41,7 +41,7 @@ function request_url()  //Получение полного URL
 
 function Navigation_Down()
 {
-    if(request_url()=='http://bootstrap/')
+    if(request_url()=='http://luafilm.ru/')
     {
         return;
     } 
@@ -57,7 +57,7 @@ function Navigation_Down()
     
 function Navigation_Up()
 {
-    if(request_url()=='http://bootstrap/')
+    if(request_url()=='http://luafilm.ru/')
     {
         return (int)(trim($_SERVER['REQUEST_URI'], '/')+1);
     } 
