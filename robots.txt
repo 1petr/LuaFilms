@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /movies*
+Disallow: /1$
+Disallow: /2$
+Disallow: /3$
+Disallow: /4$
+Disallow: /5$
+Disallow: /6$
+Disallow: /7$
+Disallow: /8$
+Host: https://luafilm.ru
+Sitemap: https://luafilm.ru/sitemap.xml
